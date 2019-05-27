@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大连民心网</title>
+</head>
+<body>
+<font color="red">在您诉求前请您认真阅读：</font>
+<font color="red">红色*号为必须填：</font>
+<form action="" method="post" style=" width: 500px">
+    <label>诉求分类:</label><br>
+    <input type="radio" name="category" value="0" id="w"><label for="w">投诉</label>
+    <input type="radio" name="category" value="1" id="e"><label for="e">咨询</label>
+    <input type="radio" name="category" value="2" id="r"><label for="r">意见建议</label>
+    <input type="radio" name="category" value="3" id="t"><label for="t">求助</label><br>
+    <label>问题发生所在城市：</label><br>
+    <select name="city" id="y" width="80%" style="width: 500px">
+        <option selected="selected" value="">请选择</option>
+        <option value="0">沈阳</option>
+        <option value="1">大连</option>
+        <option value="2">鞍山</option>
+        <option value="3">抚顺</option>
+        <option value="4">丹东</option>
+    </select><br>
+    <label>问题发生所在的区：</label><br>
+    <select name="district" id="u" width="80%" style="width: 500px">
+        <option selected="selected" value="">请选择</option>
+        <option value="0">和平区</option>
+        <option value="1">沈东区</option>
+        <option value="2">大东区</option>
+    </select><br>
+    <label>诉求主题：</label><br>
+    <input type="text" style="width: 500px"><br>
+    <label>学校名称：</label><br>
+    <input type="text" style="width: 500px"><br>
+    <label>年级：</label><br>
+    <input type="text" style="width: 500px" placeholder="如涉及多个年级，请在投诉内容里进一步描述。"><br>
+    <label>班级：</label><br>
+    <input type="text" style="width: 500px" placeholder="如涉及多个班级，请在投诉内容里进一步描述。"><br>
+    <label>教师名字：</label><br>
+    <input type="text" style="width: 500px" placeholder="如涉及多个老师，请在投诉内容里进一步描述。"><br>
+    <label>补课时间：</label><br>
+    <input type="text" style="width: 500px"><br>
+    <label>补课地址：</label><br>
+    <input type="text" style="width: 500px" placeholder="需提供详细地址，校外补课地址精确到门牌号。"><br>
+    <label>收费金额（元）：</label><br>
+    <input type="text" style="width: 500px"><br>
+    <label>诉求详细内容（2000字以内）：</label><br>
+    <textarea name="thing" id="i" cols="60" rows="10" placeholder="请尽量填写详实"></textarea>
+    <input type="button" value="上传图片（非必须选）"><br>
+    <label>诉求人信息</label><br>
+    <label>姓名</label><br>
+    <input type="text" style="width: 500px"><br>
+    <label>职业</label><br>
+    <select name="district" id="o" width="80%" style="width: 500px">
+        <option selected="selected" value="">请选择</option>
+        <option value="0">教师</option>
+        <option value="1">工人</option>
+        <option value="2">护士</option>
+    </select><br>
+    <label>手机号码：</label><br>
+    <input type="text" style="width: 500px" placeholder="请输入真实的手机号码，否则将收不到验证码。"><br>
+    <label>短信验证码：</label><br>
+    <input type="button" value="获取短信码"></input>
+    <input type="text"><br>
+    <input type="button" value="提交保存" style="width:500px ;background:green"></input>
+
+</form>
+</body>
+</html>
